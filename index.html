@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio and course tracking for WDD 230">
+    <meta name="author" content="Kevine Uwase">
+    <title>WDD 230 | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/home.css">
+    <script src="scripts/home.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Site Logo" >
+            <span>Kevine Uwase</span>
+        </div>
+        <button id="menu-button" aria-label="Toggle navigation">☰</button>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber.html">Chamber</a></li>
+                <li><a href="final.html">Final</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Home</h1>
+        
+        <section>
+            <h2>About Me</h2>
+            <p>I am Kevine Uwase, an aspiring software developer passionate about building practical and user-focused digital solutions. With experience in Python, HTML, CSS, and JavaScript, I enjoy creating projects that combine problem-solving, creativity, and continuous learning.</p>
+        </section>
+
+        <section>
+            <h2>Course Progress</h2>
+            <div class="filter-buttons">
+                <button data-filter="all">All Courses</button>
+                <button data-filter="wdd">WDD Courses</button>
+                <button data-filter="cse">CSE Courses</button>
+            </div>
+            <div id="course-container"></div>
+            <p>Total Credits: <span id="total-credits">0</span></p>
+        </section>
+
+        <section>
+            <h2>Certificates</h2>
+            <p>Web and Computer Programming Certificate progress...</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="images/github.png" alt="GitHub" width="30">
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <img src="images/linkedin.png" alt="LinkedIn" width="30">
+            </a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">
+                <img src="images/instagram.png" alt="LinkedIn" width="30">
+            </a>
+
+        </div>
+        
+        <div class="footer-info">
+            <p> &copy; <span id="current-year"></span> | Kevine Uwase | Kigali/Rwanda </p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>
