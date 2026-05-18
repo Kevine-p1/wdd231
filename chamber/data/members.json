@@ -4,7 +4,7 @@
         "address": "KN 4 Ave, Kigali",
         "phone": "+250 788 111 111",
         "website": "https://kigalicoffeehouse.com",
-        "image": "",
+        "image": "images/business1.webp",
         "membership": 3,
         "description": "Premium coffee and meeting space."
     },
@@ -14,7 +14,7 @@
         "address": "KG 7 Ave, Kigali",
         "phone": "+250 788 222 222",
         "website": "https://rwandatechsolutions.com",
-        "image": "images/business3.webp",
+        "image": "images/business2.webp",
         "membership": 2,
         "description": "Innovative technology services."
     },
@@ -24,7 +24,7 @@
         "address": "KK 15 Rd, Kigali",
         "phone": "+250 788 333 333",
         "website": "https://virungaecotours.com",
-        "image": "images/business4.webp",
+        "image": "images/business3.webp",
         "membership": 3,
         "description": "Eco tourism and safari experiences."
     },
