@@ -150,6 +150,90 @@ h1, h2, h3 {
 .list-view .member-card img {
     display: none;
 }
+/* HOME PAGE */
+
+.home-hero {
+    position: relative;
+}
+
+.home-hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.cta-button {
+
+    position: absolute;
+
+    bottom: 20px;
+    right: 20px;
+
+    background-color: var(--accent-color);
+
+    color: black;
+
+    text-decoration: none;
+
+    padding: 1rem 1.5rem;
+
+    border-radius: 5px;
+
+    font-weight: bold;
+}
+
+.home-grid {
+
+    display: grid;
+
+    gap: 1rem;
+
+    padding: 1rem;
+}
+
+.card {
+
+    background: white;
+
+    padding: 1.5rem;
+
+    border-radius: 10px;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.1);
+}
+
+.spotlights-section {
+    padding: 1rem;
+}
+
+#spotlights-container {
+
+    display: grid;
+
+    gap: 1rem;
+}
+
+.spotlight-card {
+
+    background: white;
+
+    border-radius: 10px;
+
+    padding: 1rem;
+
+    text-align: center;
+
+    box-shadow:
+    0 2px 10px rgba(0,0,0,.1);
+}
+
+.spotlight-card img {
+
+    width: 150px;
+
+    height: auto;
+}
 
 footer {
     background-color: var(--primary-color);
