@@ -51,9 +51,9 @@ listButton.addEventListener("click", () => {
     membersContainer.classList.remove("grid-view");
 });
 
-const menuButton = document.querySelector("#menu-button");
+/*const menuButton = document.querySelector("#menu-button");
 const navigation = document.querySelector(".navigation");
 
 menuButton.addEventListener("click", () => {
     navigation.classList.toggle("open");
-});
+});*/
