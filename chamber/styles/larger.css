@@ -37,3 +37,14 @@
         text-align: left;
     }
 }
+
+/* JOIN PAGE LARGE */
+
+@media screen and (min-width: 768px) {
+
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+    }
+
+}
