@@ -397,3 +397,79 @@ dialog::backdrop {
 #submitted-info p {
     margin: 1rem 0;
 }
+/* =====================
+   DISCOVER PAGE
+===================== */
+
+.discover-main {
+    padding: 1rem;
+}
+
+#visitor-message {
+    background-color: white;
+    padding: 1rem;
+    border-left: 5px solid var(--accent-color);
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+#discover-grid {
+    display: grid;
+    gap: 1rem;
+
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+.card-1 { grid-area: card1; }
+.card-2 { grid-area: card2; }
+.card-3 { grid-area: card3; }
+.card-4 { grid-area: card4; }
+.card-5 { grid-area: card5; }
+.card-6 { grid-area: card6; }
+.card-7 { grid-area: card7; }
+.card-8 { grid-area: card8; }
+
+.discover-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.1);
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+.discover-card img {
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.discover-card address {
+    margin: 1rem 0;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.discover-card button {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    padding: .75rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.discover-card button:hover {
+    background-color: var(--primary-color);
+}
