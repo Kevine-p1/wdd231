@@ -27,7 +27,7 @@ image: "images/golf.webp"
 name: "Kimironko Market",
 address: "Kimironko, Kigali",
 description: "The city's largest market featuring local produce, crafts, and commercial activity.",
-image: "images/golf.webp"
+image: "images/kimironko_market.webp"
 },
 {
 name: "Campaign Against Genocide Museum",
