@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Volcanoes National Park",
+    "country": "Rwanda",
+    "type": "Wildlife",
+    "season": "June to September",
+    "image": "images/volcano-park.webp",
+    "description": "A famous mountain gorilla trekking destination with misty forests, volcanic views, and guided conservation experiences."
+  },
+  {
+    "id": 2,
+    "name": "Nyungwe Forest National Park",
+    "country": "Rwanda",
+    "type": "Rainforest",
+    "season": "June to August",
+    "image": "images/nyungwe-forest.webp",
+    "description": "A biodiverse rainforest known for chimpanzee tracking, canopy walks, tea plantations, and birdwatching."
+  },
+  {
+    "id": 3,
+    "name": "Akagera National Park",
+    "country": "Rwanda",
+    "type": "Safari",
+    "season": "June to September",
+    "image": "images/akagera-national-park.webp",
+    "description": "A savanna park with lakes, elephants, lions, giraffes, rhinos, and peaceful game drive routes."
+  },
+  {
+    "id": 4,
+    "name": "Serengeti National Park",
+    "country": "Tanzania",
+    "type": "Safari",
+    "season": "June to October",
+    "image": "images/serengeti-national-park.webp",
+    "description": "One of Africa’s most iconic safari destinations and home to the Great Migration across open plains."
+  },
+  {
+    "id": 5,
+    "name": "Mount Kilimanjaro",
+    "country": "Tanzania",
+    "type": "Mountain",
+    "season": "January to March",
+    "image": "images/mount-kilimanjaro.webp",
+    "description": "Africa’s highest mountain and a world-famous trekking destination for adventurous travelers."
+  },
+  {
+    "id": 6,
+    "name": "Zanzibar Stone Town",
+    "country": "Tanzania",
+    "type": "Culture",
+    "season": "June to October",
+    "image": "images/stone-town.webp",
+    "description": "A historic coastal city known for Swahili culture, spice markets, old architecture, and ocean views."
+  },
+  {
+    "id": 7,
+    "name": "Maasai Mara National Reserve",
+    "country": "Kenya",
+    "type": "Safari",
+    "season": "July to October",
+    "image": "images/maasai-mara.webp",
+    "description": "A premier safari reserve famous for big cats, open plains, Maasai culture, and migration crossings."
+  },
+  {
+    "id": 8,
+    "name": "Diani Beach",
+    "country": "Kenya",
+    "type": "Beach",
+    "season": "December to March",
+    "image": "images/diani-beach.webp",
+    "description": "A white-sand beach destination with turquoise water, coral reefs, palm trees, and water sports."
+  },
+  {
+    "id": 9,
+    "name": "Lamu Old Town",
+    "country": "Kenya",
+    "type": "Culture",
+    "season": "July to March",
+    "image": "images/lamu-town.webp",
+    "description": "A historic Swahili settlement with narrow streets, traditional boats, coastal heritage, and quiet charm."
+  },
+  {
+    "id": 10,
+    "name": "Bwindi Impenetrable National Park",
+    "country": "Uganda",
+    "type": "Wildlife",
+    "season": "June to August",
+    "image": "images/bwindi-park.webp",
+    "description": "A dense forest destination best known for mountain gorilla trekking and rich biodiversity."
+  },
+  {
+    "id": 11,
+    "name": "Murchison Falls National Park",
+    "country": "Uganda",
+    "type": "Safari",
+    "season": "December to February",
+    "image": "images/murchison-fall-park.webp",
+    "description": "A scenic park where the Nile River crashes through a narrow gorge surrounded by wildlife."
+  },
+  {
+    "id": 12,
+    "name": "Lake Bunyonyi",
+    "country": "Uganda",
+    "type": "Lake",
+    "season": "June to September",
+    "image": "images/lake-assal.webp",
+    "description": "A peaceful lake surrounded by terraced hills, small islands, canoe routes, and relaxing lodges."
+  },
+  {
+    "id": 13,
+    "name": "Simien Mountains National Park",
+    "country": "Ethiopia",
+    "type": "Mountain",
+    "season": "October to March",
+    "image": "images/simien-mountains.webp",
+    "description": "A dramatic mountain landscape known for cliffs, trekking routes, gelada monkeys, and panoramic views."
+  },
+  {
+    "id": 14,
+    "name": "Lalibela",
+    "country": "Ethiopia",
+    "type": "Culture",
+    "season": "October to March",
+    "image": "images/lalibela.webp",
+    "description": "A historic town famous for rock-hewn churches, religious heritage, festivals, and ancient architecture."
+  },
+  {
+    "id": 15,
+    "name": "Lake Assal",
+    "country": "Djibouti",
+    "type": "Lake",
+    "season": "November to February",
+    "image": "images/lake-assal.webp",
+    "description": "A salt lake below sea level with bright mineral colors, desert scenery, and unique landscapes."
+  }
+]

@@ -1,0 +1,59 @@
+@media screen and (min-width: 700px) {
+    .menu-button {
+        display: none;
+    }
+
+    .primary-nav {
+        display: block;
+        position: static;
+        border-top: 0;
+    }
+
+    .primary-nav ul {
+        display: flex;
+        gap: 0.35rem;
+        padding: 0;
+    }
+
+    .primary-nav a {
+        padding: 0.65rem 0.9rem;
+    }
+
+    .intro-grid,
+    .weather-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .info-grid {
+        grid-template-columns: 1.3fr 0.7fr;
+    }
+
+    .destination-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .planner-grid {
+        grid-template-columns: 1.3fr 0.7fr;
+        align-items: start;
+    }
+
+    .filters {
+        grid-template-columns: repeat(3, 1fr);
+        align-items: end;
+    }
+
+    .footer-inner {
+        grid-template-columns: 1fr auto;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .destination-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .hero .container {
+        padding-block: 6.5rem;
+    }
+}

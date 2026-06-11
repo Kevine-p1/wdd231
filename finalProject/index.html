@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>East Africa Travel Planner | Home</title>
+    <meta name="description" content="Discover East African destinations, travel tips, weather information, and planning resources for your next trip.">
+    <meta name="author" content="Kevine Uwase">
+
+    <meta property="og:title" content="East Africa Travel Planner">
+    <meta property="og:description" content="Plan your East Africa travel experience with destination guides, weather, tips, and itinerary support.">
+    <meta property="og:image" content="images/hero-east-africa.webp">
+    <meta property="og:url" content="index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/pages.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <script type="module" src="scripts/main.js"></script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="East Africa Travel Planner home">
+                <span class="logo-mark">EA</span>
+                <span>East Africa Travel Planner</span>
+            </a>
+
+            <button id="menu-button" class="menu-button" type="button" aria-label="Open navigation menu" aria-controls="primary-nav" aria-expanded="false">☰</button>
+
+            <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="planner.html">Planner</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section class="hero">
+            <div class="container">
+                <h1>Plan a meaningful East African journey</h1>
+                <p>Explore destinations across Rwanda, Kenya, Tanzania, Uganda, Ethiopia, and Djibouti with travel ideas, seasonal guidance, and Kigali weather updates.</p>
+                <div class="hero-actions">
+                    <a class="button" href="destinations.html">Explore Destinations</a>
+                    <a class="button secondary" href="planner.html">Start Planning</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <h2>Featured Travel Experiences</h2>
+            <div class="intro-grid">
+                <article class="feature-card">
+                    <h3>Wildlife Safaris</h3>
+                    <p>Discover savanna parks, national reserves, and protected wildlife areas with lions, elephants, giraffes, rhinos, and birds.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Cultural Tourism</h3>
+                    <p>Learn from Swahili coastal towns, historic churches, local markets, traditional communities, and regional heritage sites.</p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Adventure Travel</h3>
+                    <p>Plan mountain treks, canopy walks, lake escapes, gorilla trekking, and beach activities across East Africa.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container section info-grid">
+            <article>
+                <h2>Why use this planner?</h2>
+                <p>This website helps visitors compare destination types, understand the best travel seasons, review basic destination information, and submit a travel planning request.</p>
+                <p class="quote">“Travel becomes more meaningful when visitors understand the land, the people, the seasons, and the culture before they arrive.”</p>
+            </article>
+
+            <aside class="weather-card" aria-labelledby="weather-heading">
+                <h2 id="weather-heading">Kigali Weather</h2>
+                <p>Current weather information for Kigali, Rwanda.</p>
+                <div id="weather-data">
+                    <p>Loading weather...</p>
+                </div>
+            </aside>
+        </section>
+
+        <section class="container section">
+            <h2>Travel Tips</h2>
+            <div class="intro-grid">
+                <article class="tip-card">
+                    <h3>Check seasons</h3>
+                    <p>Dry seasons are often best for safaris, trekking, and road travel, but each destination has unique timing.</p>
+                </article>
+
+                <article class="tip-card">
+                    <h3>Respect culture</h3>
+                    <p>Learn local customs, dress respectfully in cultural sites, and support local guides and businesses.</p>
+                </article>
+
+                <article class="tip-card">
+                    <h3>Plan transport early</h3>
+                    <p>Some parks and remote destinations require advance planning for road transfers, permits, and lodging.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div>
+                <p>&copy; <span id="current-year"></span> East Africa Travel Planner</p>
+                <p>Last Modified: <span id="last-modified"></span></p>
+            </div>
+            <div class="footer-links">
+                <a href="attributions.html">Attributions</a>
+                <a href="YOUR_VIDEO_LINK_HERE">Video Demonstration</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
