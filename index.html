@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal portfolio and course tracking for WDD 230">
+    <meta name="description" content="Personal portfolio and course tracking for WDD 231">
     <meta name="author" content="Kevine Uwase">
-    <title>WDD 230 | Home</title>
+    <title>WDD 231 | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <script src="scripts/home.js" defer></script>
     <link rel="icon" href="favicon.ico">
 </head>
@@ -19,10 +20,10 @@
             <img src="images/logo.png" alt="Site Logo" >
             <span>Kevine Uwase</span>
         </div>
-        <button id="menu-button" aria-label="Toggle navigation">☰</button>
+        <button id="menu-button" type="button" aria-label="Toggle navigation" aria-controls="main-nav" aria-expanded="false"> ☰ </button>
         <nav id="main-nav">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" aria-current="page">Home</a></li>
                 <li><a href="chamber/index.html">Chamber</a></li>
                 <li><a href="finalProject/index.html">Final</a></li>
             </ul>

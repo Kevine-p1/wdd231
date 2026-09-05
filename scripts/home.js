@@ -134,10 +134,14 @@ function setupEventListeners() {
 
     // Mobile menu toggle
     if (menuButton && mainNav) {
-        menuButton.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
-        });
-    }
+    menuButton.addEventListener('click', () => {
+        const isOpen = mainNav.classList.toggle('active');
+
+        menuButton.setAttribute('aria-expanded', isOpen);
+
+        menuButton.textContent = isOpen ? '✕' : '☰';
+    });
+}
 }
 
 // ==========================================

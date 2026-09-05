@@ -1,0 +1,220 @@
+/* =========================
+   RESET & BASE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #222;
+    background-color: #fff;
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+/* =========================
+   HAMBURGER BUTTON
+========================= */
+
+#menu-button {
+    display: block;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+
+/* =========================
+   MOBILE NAVIGATION
+========================= */
+
+#main-nav {
+    width: 100%;
+}
+
+#main-nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav.active ul {
+    display: flex;
+}
+
+#main-nav li {
+    width: 100%;
+    text-align: center;
+}
+
+#main-nav a {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-nav a:hover,
+#main-nav a:focus {
+    background-color: #555;
+}
+
+#main-nav a[aria-current="page"] {
+    background-color: #fff;
+    color: #333;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+
+/* =========================
+   FILTER BUTTONS
+========================= */
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.filter-buttons button {
+    flex: 1 1 100px;
+    padding: 0.7rem;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #222;
+    cursor: pointer;
+}
+
+.filter-buttons button:hover {
+    background-color: #eee;
+}
+
+.filter-buttons button.active {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/* =========================
+   COURSE CARDS
+========================= */
+
+#course-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+}
+
+.course-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-left: 5px solid #007acc;
+    border-radius: 6px;
+}
+
+.course-card.completed {
+    border-left-color: #26734d;
+    background-color: #eef8f2;
+}
+
+.course-title {
+    margin: 0.4rem 0;
+}
+
+.completion-badge {
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.footer-info p {
+    margin: 0.3rem 0;
+}
